@@ -1,0 +1,134 @@
+/* 
+
+ background-color: ;
+background-image: */
+
+ @import url("https://fonts.google.com/specimen/Inter");
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* variables */
+ 
+:root{
+
+--BG-COLOR:  radial-gradient(whitesmoke, #475569);
+--FONT-COLOR: white;
+--Off-Black: hsl(0, 0%, 8%);
+}
+
+
+body{
+background-image: var(--BG-COLOR);
+font-family: 'Inter','specimen';
+padding: 0;
+  margin: 0;
+ min-height: 100vh;
+}
+
+
+.profile{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* margin-top: 100px; */
+  width: 100%;
+  margin-bottom: 20px;
+} 
+
+p{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+
+.profile__content{
+    color: var(--FONT-COLOR);
+    background-color: #475569;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+   min-width: 20rem;
+    margin-top: 100px;
+  max-height: 50% ;
+ 
+
+  
+}
+ 
+
+ .social{
+    background-color: #142134;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 80%;
+    
+    margin-bottom: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: var(--FONT-COLOR);
+  
+
+}
+ .social:hover{ 
+    background-color: #020b17;
+    cursor: pointer;
+    font-size: 25px;
+transition: all ease 0.4s;
+}
+ .social:last-child{
+ margin-bottom: 20px;
+ }
+ p{
+    color: var(--FONT-COLOR);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.place{
+  color: rgb(3, 170, 39);
+}
+
+img{
+    width: 90px;
+    border-radius: 50px;
+
+} 
+
+
+ .attribution{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  color: hsla(0, 0%, 100%, 0.697);
+}
+
+.attribution a{
+  text-decoration: none;
+ margin-left: 5px;
+ color: azure;
+}
+ /* make website responsive */
+
+
+
+
+
+
+ 
